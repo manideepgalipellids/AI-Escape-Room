@@ -1,0 +1,7 @@
+{
+  "title": "The Midnight Library",
+  "objects": ["bookshelf", "desk", "painting", "drawer", "door"],
+  "drawer_password": "MOON",
+  "exit_code": "4271",
+  "starting_description": "You awaken in a locked library. A bookshelf, desk, painting, locked drawer and exit door are visible. Explore to find a way out."
+}
