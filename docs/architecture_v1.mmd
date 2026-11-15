@@ -1,0 +1,7 @@
+flowchart TD
+    A[Player] --> B[Streamlit chat interface]
+    B --> C[Conversation history]
+    C --> D[Gemini Game Master]
+    E[System prompt and puzzle rules] --> D
+    D --> F[Generated narrative and game decisions]
+    F --> B

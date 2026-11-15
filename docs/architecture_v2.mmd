@@ -1,0 +1,9 @@
+flowchart TD
+    A[Player] --> B[Streamlit chat interface]
+    B --> C[Python action parser and validator]
+    D[JSON game configuration] --> C
+    E[GameState: clues, inventory, locks] <--> C
+    C --> F[Authoritative outcome]
+    F --> B
+    F --> G[Gemini narrator or offline fallback]
+    G --> B
