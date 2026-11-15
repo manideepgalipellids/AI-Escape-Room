@@ -14,11 +14,9 @@ Python 3.10+, Streamlit, Google Gemini API (`google-genai`), `python-dotenv`, py
 
 ```bash
 python -m venv .venv
-# Windows PowerShell:
-.venv\Scripts\Activate.ps1
-# macOS / Linux: source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env  # Windows PowerShell: Copy-Item .env.example .env
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
 ```
 
 Edit `.env` and set `GEMINI_API_KEY` using a key from Google AI Studio. Never commit `.env`. Optionally change `GEMINI_MODEL` to a currently supported Gemini model.
